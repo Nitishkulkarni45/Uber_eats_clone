@@ -1,0 +1,16 @@
+.offbod{
+    background-color: white;
+}
+.SIGNUP-BUT{
+    color: white;
+    background-color: black;
+}
+.Button-signup{
+    color: white;
+}
+.Button-signup :hover{
+    color: white !important;
+}
+.offhead{
+    color: white;
+}
