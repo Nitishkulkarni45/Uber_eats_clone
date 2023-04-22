@@ -17,12 +17,12 @@ function Navbar(){
       </div> */}
       <div class="offcanvas-body offbod">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
+          {/* <li class="nav-item"> */}
              <button className='SIGNUP-BUT'><a class="nav-link Button-signup" aria-current="page" href="/">Sign Up</a></button>
-          </li>
-          <li class="nav-item">
+          {/* </li> */}
+          {/* <li class="nav-item"> */}
              <button className='LOGIN-BUT'><a class="nav-link Button-login" aria-current="page" href="/">Login</a></button>
-          </li>
+          {/* </li> */}
           <div className="option">
           <a className="ops">Create a business account</a>
           <a className="ops">Add your restaurant</a>

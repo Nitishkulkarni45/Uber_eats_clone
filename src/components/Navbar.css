@@ -8,9 +8,9 @@
 }
 .SIGNUP-BUT{
     border-radius: 10px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    width: 158px;
+    /* margin-left: 30px; */
+    margin-bottom: 8px;
+    width: 255px;
     color: white;
     background-color: black;
     padding: 0.5rem 0;
@@ -19,15 +19,21 @@
     /* width: 30px; */
     border: none;
     color: black;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
 }
 .LOGIN-BUT{
+    
+    background-color: #EEEEEE;
     padding: 0.5rem 0;
     border-radius: 10px;
     border: none;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-bottom: 10%;
-width: 158px;
+width: 255px;
+}
+.LOGIN-BUT :hover{
+    color: black;
+   background-color: #e2e2e2;
 }
 .Button-signup{
     color: white;
@@ -42,22 +48,29 @@ width: 158px;
 .option {
     display: flex;
     flex-direction: column;
-    width: 183px;
-    margin-left: 21.5%;
+    width: 188px;
+    /* margin-left: 21.5%; */
     text-align: start;
 }
 .option a{
+    font-weight: 600;
+    cursor: pointer;
     text-decoration: none;
     color: black;
     margin: 5px 0;
 }
 .foot{
+    margin-bottom: 8%;
     display: flex;
 }
 .foot p{
-    width: 146px;
+    display: flex;
+    font-weight: 600;
+    width: 150px;
     text-align: start;
     margin-left: 18px;
+    align-items: center;
+    justify-content: center;
 }
 .foot img{
     height: 4rem;
@@ -69,10 +82,17 @@ width: 158px;
     align-items: center;
     gap: 20px;
     display: flex;
+    /* width: 4rem; */
 }
 .appstor button{
-    width: 30%;
+    width: 46%;
     border: none;
     padding: 0.5rem 0;
-    /* border-radius: 50%; */
+    border-radius: 50px;
+}
+.appstor i{
+    margin-right: 7px;
+}
+.mainmud{
+    margin-top: 110%;
 }
