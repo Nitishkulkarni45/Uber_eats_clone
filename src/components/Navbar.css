@@ -96,3 +96,26 @@ width: 255px;
 .mainmud{
     margin-top: 110%;
 }
+.maan{
+   background: center / cover no-repeat url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png);
+   height: 100%;
+   /* position: absolute; */
+}
+.flu{
+    margin-bottom: 45%;
+}
+.navic1 span{
+    color: black !important;
+}
+.SIGNUPBUT{
+    width: 46%;
+    border: none;
+    padding: 0.5rem 0;
+    border-radius: 50px;
+}
+.LOGINBUT{
+    width: 46%;
+    border: none;
+    padding: 0.5rem 0;
+    border-radius: 50px;
+}
