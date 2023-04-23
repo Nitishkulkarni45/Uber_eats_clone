@@ -6,12 +6,12 @@ function Navbar() {
     <div >
       <nav class="navbar navbar-dark bg-light fixed-top maan ">
         <div class="container-fluid flu">
-          <button class="navbar-toggler navic1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <button class="navbar-toggler navic1 oho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon navic"></span>
           </button>
           <div className="sidebut">
+            <button className='LOGINBUT'><a class="nav-link Button-login" aria-current="page" href="/"><i class="bi bi-person-fill"></i>Login</a></button>
             <button className='SIGNUPBUT'><a class="nav-link Button-signup" aria-current="page" href="/">Sign Up</a></button>
-            <button className='LOGINBUT'><a class="nav-link Button-login" aria-current="page" href="/">Login</a></button>
           </div>
           {/* <a class="navbar-brand" href="#">Offcanvas dark navbar</a> */}
           <div class="offcanvas offcanvas-start offcan" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">

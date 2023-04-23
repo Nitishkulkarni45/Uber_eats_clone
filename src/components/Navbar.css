@@ -119,3 +119,36 @@ width: 255px;
     padding: 0.5rem 0;
     border-radius: 50px;
 }
+/* .Button-signup{
+    width: 120px;
+} */
+.LOGINBUT{
+    
+    width: 100px;
+    padding: 10px 0;
+}
+.SIGNUPBUT{
+    background-color: black;
+    padding: 10px 0;
+    width: 100px;
+    margin-left: 15px;
+}
+.SIGNUPBUT a{
+    padding: 3px 0px;
+color: white;
+}
+.LOGINBUT a{
+    font-weight: 500;
+    /* padding: 1px 0px; */
+
+}
+.sidebut{
+    margin: 20px 25px 0 0 ;
+} 
+.LOGINBUT i{
+    font-size: 20px;
+    margin-right: 2px;
+}
+.oho{
+    color: black !important;
+}
