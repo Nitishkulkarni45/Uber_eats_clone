@@ -96,11 +96,6 @@ width: 255px;
 .mainmud{
     margin-top: 110%;
 }
-.maan{
-   background: center / cover no-repeat url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png);
-   height: 100%;
-   /* position: absolute; */
-}
 .flu{
     margin-bottom: 45%;
 }
@@ -151,10 +146,17 @@ color: white;
     color: black !important;
 }
 .ogo{
+
     margin: 5px 0px 0px 20px;
 }
 .hea{
+    font-size: 20px;
     display: flex;
     text-align: start;
-    margin-right: 30%;
+    margin-right: 67%;
+    margin-top: 2px;
+}
+.eats{
+    font-weight: 700;
+    margin-left: 5px;
 }

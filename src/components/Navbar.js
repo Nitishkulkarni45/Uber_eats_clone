@@ -3,15 +3,15 @@ import "./Navbar.css";
 import Navfoot from './Navfoot';
 function Navbar() {
   return (
-    <div >
-      <nav class="navbar navbar-dark bg-light fixed-top maan ">
+    <div>
+      <nav class="navbar navbar fixed-top">
         <div class="container-fluid flu">
           <button class="navbar-toggler ogo " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon navic"></span>
+            <span class="fa fa-bars navic"></span>
           </button>
           <div className="hea">
             <h2>uber</h2>
-            <h2>Eats</h2>
+            <h2 className='eats'>Eats</h2>
           </div>
           <div className="sidebut">
             <button className='LOGINBUT'><a class="nav-link Button-login" aria-current="page" href="/"><i class="bi bi-person-fill"></i>Login</a></button>
