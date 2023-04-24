@@ -6,9 +6,13 @@ function Navbar() {
     <div >
       <nav class="navbar navbar-dark bg-light fixed-top maan ">
         <div class="container-fluid flu">
-          <button class="navbar-toggler navic1 oho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <button class="navbar-toggler ogo " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon navic"></span>
           </button>
+          <div className="hea">
+            <h2>uber</h2>
+            <h2>Eats</h2>
+          </div>
           <div className="sidebut">
             <button className='LOGINBUT'><a class="nav-link Button-login" aria-current="page" href="/"><i class="bi bi-person-fill"></i>Login</a></button>
             <button className='SIGNUPBUT'><a class="nav-link Button-signup" aria-current="page" href="/">Sign Up</a></button>
@@ -20,9 +24,9 @@ function Navbar() {
                 <button className='SIGNUP-BUT'><a class="nav-link Button-signup" aria-current="page" href="/">Sign Up</a></button>
                 <button className='LOGIN-BUT'><a class="nav-link Button-login" aria-current="page" href="/">Login</a></button>
                 <div className="option">
-                  <a className="ops">Create a business account</a>
-                  <a className="ops">Add your restaurant</a>
-                  <a className="ops">Sign up to deliver</a>
+                  <a className="ops" href='/'>Create a business account</a>
+                  <a className="ops" href='/'>Add your restaurant</a>
+                  <a className="ops" href='/'>Sign up to deliver</a>
                 </div>
                 <Navfoot />
               </ul>
