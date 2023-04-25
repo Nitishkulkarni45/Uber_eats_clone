@@ -1,3 +1,65 @@
 .Drop{
     z-index: 1200;
 }
+.makeSymbol{
+    margin-right: 5px;
+}
+.deliver{
+    border-radius: none !important;
+}
+.hi{
+    border-radius: none !important;
+    margin-left: 5px;
+    /* padding: 20px 50px; */
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border: none;
+}
+
+.Drop .hi :hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: 500;
+}
+.darker{
+    /* z-index: 1300; */
+    margin-left: 5px;
+    border: none !important;
+    width: 120px;
+    background-color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.detailss{
+    display: flex;
+ justify-content: center;
+ 
+}
+.details{
+    margin-top: 20%;
+    position: absolute;
+}
+.details h1{
+    font-weight: bold;
+    margin-left: -305px;
+}
+.end a{
+    color: black;
+}
+.end{
+    font-weight: 500;
+}
+.location{
+    border: none;
+    /* padding: 15px 195px; */
+    width: 570px;
+    height: 60px;
+    margin-left: 40px;
+}
+.location :placeholder{
+  font-weight: 600;
+}
