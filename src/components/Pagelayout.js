@@ -20,9 +20,8 @@ function Pagelayout() {
                 </div>
                 <button type="button" className="btn btn-dark darker">Find Food</button>
                 </div>
-                <div className="end"><a href="/">Sign In</a> for your recent addresses</div>
             </div>
-
+                <div className="end"><a href="/">Sign In</a> for your recent addresses</div>
         </div>
     )
 }

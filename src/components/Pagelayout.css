@@ -20,6 +20,7 @@
     border: none;
 }
 
+
 .Drop .hi :hover{
     background-color: white !important;
     color: black !important;
@@ -41,11 +42,13 @@
 }
 .details{
     margin-top: 20%;
-    position: absolute;
+    /* position: absolute; */
 }
 .details h1{
     font-weight: bold;
-    margin-left: -305px;
+    margin-left: -266px;
+    margin-bottom:40px;
+    font-size: 50px;
 }
 .end a{
     color: black;
