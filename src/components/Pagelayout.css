@@ -42,7 +42,7 @@
 }
 .details{
     margin-top: 20%;
-    /* position: absolute; */
+    position: absolute;
 }
 .details h1{
     font-weight: bold;

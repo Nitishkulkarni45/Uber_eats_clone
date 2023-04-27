@@ -1,0 +1,14 @@
+.mapshead h1{
+    text-align: start;
+    /* margin-bottom: 30px; */
+}
+.maps{
+    margin: 0 40px;
+}
+.mapshead{
+    display: flex;
+    justify-content:space-between;
+}
+.mapshead a{
+    text-align:end;
+}
