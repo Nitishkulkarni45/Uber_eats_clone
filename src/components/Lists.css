@@ -1,0 +1,47 @@
+.listssub{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+}
+.ul a{
+    line-height: 3.0;
+    text-decoration: none;
+    color: black;
+    text-align: start;
+}
+#ul1{
+    margin-left: -215px;
+}
+#ul2{
+    /* margin-right: 45px; */
+}
+.lists-main h1{
+    margin:0 0 40px 40px;
+    text-align: start;
+}
+.listscountry{
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 70px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col a{
+    text-align: start;
+    line-height: 3.0;
+    text-decoration: none;
+    color: black;
+}
+#col1{
+    margin-left: 50px;
+}
+#col2{
+    margin-right: 10px;
+}

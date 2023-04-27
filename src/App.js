@@ -3,6 +3,7 @@ import './App.css';
 import Pagelayout from './components/Pagelayout';
 import Cards from './components/Cards';
 import Maps from './components/Maps';
+import Lists from './components/Lists';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       </div>
       <Cards />
       <Maps />
+      <Lists />
     </div>
   );
 }

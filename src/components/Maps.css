@@ -10,5 +10,12 @@
     justify-content:space-between;
 }
 .mapshead a{
+    color: black;
+    margin-top: 15px;
     text-align:end;
+}
+.mapsimg img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
 }
