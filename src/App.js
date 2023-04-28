@@ -4,6 +4,7 @@ import Pagelayout from './components/Pagelayout';
 import Cards from './components/Cards';
 import Maps from './components/Maps';
 import Lists from './components/Lists';
+import Foothead from './components/Foothead';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <Cards />
       <Maps />
       <Lists />
+      <Foothead />
     </div>
   );
 }
