@@ -5,6 +5,7 @@ import Cards from './components/Cards';
 import Maps from './components/Maps';
 import Lists from './components/Lists';
 import Foothead from './components/Foothead';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Maps />
       <Lists />
       <Foothead />
+      <Footer />
     </div>
   );
 }

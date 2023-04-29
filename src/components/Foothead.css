@@ -1,13 +1,41 @@
 .cont{
     margin-top:80px ;
     display: flex;
+    justify-content: space-between;
 }
 .colu a{
+    line-height: 2.5;
     text-decoration: none;
     color: black;
     text-align: start;
 }
+.colu a :hover{ 
+    text-decoration: underline !important;
+    
+}
 .colu{
     display: flex;
     flex-direction: column
+}
+/* .sym{
+    margin-left: 50px;
+} */
+.sym img{
+  height: 45px;
+  width: 280px;
+  margin: 150px 0 50px 35px;
+}
+.subcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subcol h2{
+    margin-right: 110px;
+}
+#cololo{
+    margin-right: 230px;
+}
+#cololo1{
+    margin-left: 280px;
 }
