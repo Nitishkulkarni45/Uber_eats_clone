@@ -51,10 +51,13 @@
     font-size: 50px;
 }
 .end a{
+    text-decoration: underline;
     color: black;
 }
 .end{
+    margin-top: 20px;
     font-weight: 500;
+    width: 320px;
 }
 .location{
     border: none;
