@@ -4,7 +4,7 @@ import Navfoot from './Navfoot';
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar fixed-top oilo">
+      <nav class="navbar fixed-top oilo">
         <div class="container-fluid flu">
           <button class="navbar-toggler ogo " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="fa fa-bars navic"></span>
