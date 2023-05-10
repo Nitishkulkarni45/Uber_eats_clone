@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css";
 import Navfoot from './Navfoot';
+import Pagelayout from './Pagelayout';
 function Navbar() {
   return (
     <div>
@@ -29,6 +30,7 @@ function Navbar() {
                   <a className="ops" href='/'>Sign up to deliver</a>
                 </div>
                 <Navfoot />
+                <Pagelayout />
               </ul>
             </div>
           </div>

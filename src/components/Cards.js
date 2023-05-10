@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Cards.css";
-import Pagelayout from './Pagelayout';
+
 
 function Cards() {
     return (
         <div>
-        <Pagelayout />
+        
             
             <div className="cards">
                 <div className="card">

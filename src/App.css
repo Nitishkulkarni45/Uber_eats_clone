@@ -1,14 +1,10 @@
-body{
-  background-image:center / cover no-repeat url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png);  
-}
-/* .App {
-  text-align: center;
+
+.App {
+  text-align: start;
   
 }
-.maan{
-   background: center / cover no-repeat url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png);
-   height: 100%;
-}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -43,4 +39,4 @@ body{
   to {
     transform: rotate(360deg);
   }
-} */
+} 
