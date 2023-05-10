@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Footer.css";
+import Foothead from './Foothead'
 
 function Footer() {
   return (
     <div>
+      <Foothead />
       <div className="foo">
         <div className="headleft">
         <i class="fa-brands fa-square-facebook"></i>

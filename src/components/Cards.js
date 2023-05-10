@@ -1,9 +1,12 @@
 import React from 'react'
 import "./Cards.css";
+import Pagelayout from './Pagelayout';
 
 function Cards() {
     return (
         <div>
+        <Pagelayout />
+            
             <div className="cards">
                 <div className="card">
                     <img src="https://cdn.pixabay.com/photo/2016/03/05/19/22/bar-1238379__340.jpg" alt="img" style={{ width: '450px', height: '250px' }} />

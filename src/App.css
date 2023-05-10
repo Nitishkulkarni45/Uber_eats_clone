@@ -1,4 +1,7 @@
-.App {
+body{
+  background-image:center / cover no-repeat url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png);  
+}
+/* .App {
   text-align: center;
   
 }
@@ -40,4 +43,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

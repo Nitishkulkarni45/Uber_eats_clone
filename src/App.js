@@ -1,13 +1,15 @@
-import Navbar from './components/Navbar';
-import { Route, Routes } from "react-router-dom";
-import Pagelayout from './components/Pagelayout';
-import Cards from './components/Cards';
-import Maps from './components/Maps';
-import Lists from './components/Lists';
-import Foothead from './components/Foothead';
-import Footer from './components/Footer';
-import Login from './Routes/Login';
+// import Navbar from './components/Navbar';
+// import Pagelayout from './components/Pagelayout';
+// import Cards from './components/Cards';
+// import Maps from './components/Maps';
+// import Lists from './components/Lists';
+// import Foothead from './components/Foothead';
+// import Footer from './components/Footer';
+import './App.css';
 import Home from './Routes/Home';
+import Login from './Routes/Login';
+import Signup from './Routes/Signup';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -15,7 +17,17 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Login" element={<Login />} />
-      </Routes>
+        <Route path="/Signup" element={<Signup />} />
+      </ Routes>
+      {/* <div className='maan' style={{minHeight:'100vh'}}>
+      <Navbar />
+      <Pagelayout />
+      </div>
+      <Cards />
+      <Maps />
+      <Lists />
+      <Foothead />
+      <Footer /> */}
     </div>
   );
 }
