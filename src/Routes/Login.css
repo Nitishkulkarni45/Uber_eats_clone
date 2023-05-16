@@ -1,0 +1,10 @@
+
+.hori{
+    display: flex;
+    flex-direction: row;
+}
+.buts{
+    display: flex;
+    flex-direction: column;
+}
+

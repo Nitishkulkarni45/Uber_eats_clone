@@ -3,14 +3,14 @@ import "./Pagelayout.css";
 
 function Pagelayout() {
     return (
-        <div>
+        <div style={{paddingLeft:'20px'}}>
             
             <div className="details">
             <h1>Order food to your door</h1>
             <div className="detailss">
                 <input type="text" className='location' placeholder='enter delivery address' />
                 <div class="dropdown Drop">
-                    <a className="btn btn-secondary dropdown-toggle hi" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-clock-fill makeSymbol"></i>
+                    <a className="btn btn-secondary dropdown-toggle hi d-flex align-items-center rounded-none" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-clock-fill makeSymbol"></i>
                         Deliver now
                     </a>
                     <ul class="dropdown-menu" style={{borderRadius:'none !important'}}>

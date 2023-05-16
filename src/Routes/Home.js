@@ -4,6 +4,7 @@ import Cards from '../components/Cards'
 import Maps from '../components/Maps'
 import Lists from '../components/Lists'
 import Footer from '../components/Footer'
+import Banner from './Banner'
 
                 
 const Home = () => {
@@ -20,7 +21,8 @@ const Home = () => {
         }}
       >
         {/* Your content goes here */}
-        <Navbar />
+        {/* <Navbar /> */}
+        <Banner/>
       </div>
       <Cards />
 <Maps/>
