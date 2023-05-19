@@ -7,4 +7,38 @@
     display: flex;
     flex-direction: column;
 }
-
+.form-begin{
+    margin: 80px auto;
+    width: 350px;
+}
+h2{
+    font-size: 22px;
+    font-weight: 750;
+}
+#em-ph{
+    width: 350px;
+    height: 45px;
+    border: none;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    text-align: start;
+    padding-left: 15px;
+}
+#em-ph::placeholder{
+    font-weight: bolder;
+}
+.cont-but{
+    color: white;
+    margin: 15px 0px;
+    border-radius: 8px;
+    border: none;
+    width: 350px;
+    height: 45px;
+    background-color: black;
+}
+.cont-but::placeholder{
+    font-weight: bolder;
+}
+hr{
+    text-align: center;
+}
