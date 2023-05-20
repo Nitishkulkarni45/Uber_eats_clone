@@ -20,7 +20,9 @@ function Navbar() {
             <button onClick={()=>{
               navigate('/login')
             }} className='LOGINBUT'><a class="nav-link Button-login" aria-current="page"><i class="bi bi-person-fill"></i>Login</a></button>
-            <button className='SIGNUPBUT'><a class="nav-link Button-signup" aria-current="page" href="/">Sign Up</a></button>
+            <button onClick={()=>{
+              navigate('/signup')
+            }}className='SIGNUPBUT'><a class="nav-link Button-signup" aria-current="page">Sign Up</a></button>
           </div>
           {/* <a class="navbar-brand" href="#">Offcanvas dark navbar</a> */}
           <div class="offcanvas offcanvas-start offcan" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">

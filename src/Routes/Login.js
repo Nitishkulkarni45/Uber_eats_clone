@@ -14,7 +14,7 @@ const Login = () => {
       </nav>
       <div>
         <div className="form-begin">
-          <h2>What's your phone number or email?</h2>
+          <div className="head"><h2>What's your phone number or email?</h2></div>
           <input type="text" id="em-ph" placeholder='Enter phone number or email' />
           <div className="butnit"><button className='cont-but'>Continue</button></div>
           <div className="hori">
