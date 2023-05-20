@@ -18,14 +18,16 @@ const Login = () => {
           <input type="text" id="em-ph" placeholder='Enter phone number or email' />
           <div className="butnit"><button className='cont-but'>Continue</button></div>
           <div className="hori">
-            <div className="hr1"><hr width="20px" /></div>Or<div className="hr1"><hr width="20px" /></div>
+            <div className="hr1"><hr width="20px" />Or<hr width="20px" /></div>
           </div>
           <div className="buts">
-            <button className='cont-but-1'>Continue with Google</button>
-            <button className='cont-but-1'>Continue with Apple</button>
-            <button className='cont-but-1'>Continue with Facebook</button>
+            <div className="combine"><div className="extra"><img src="https://cdn-icons-png.flaticon.com/128/281/281764.png" alt="google" /></div><button className='cont-but-1'>Continue with Google</button></div>
+            <div className="combine"><div className="extra"><img src="https://cdn-icons-png.flaticon.com/128/0/747.png" alt="apple" /></div><button className='cont-but-1'>Continue with Apple</button></div>
+            <div className="combine"><div className="extra"><img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="facebook" /></div><button className='cont-but-1'>Continue with Facebook</button></div>
           </div>
+          <div className="para">
           <p>By proceeding, you consent to get calls, WhatsApp or SMS messages, including by automated means, from Uber and its affiliates to the number provided.This site is protected by reCAPTCHA and the Google <a href='/'>Privacy Policy</a> and <a href='/'>Terms of Service</a> apply.</p>
+          </div>
         </div>
       </div>
     </div>

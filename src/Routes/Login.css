@@ -9,15 +9,15 @@
 }
 .form-begin{
     margin: 80px auto;
-    width: 350px;
+    width: 280px;
 }
 h2{
     font-size: 22px;
     font-weight: 750;
 }
 #em-ph{
-    width: 350px;
-    height: 45px;
+    width: 330px;
+    height: 50px;
     border: none;
     background-color: #EEEEEE;
     border-radius: 8px;
@@ -32,8 +32,8 @@ h2{
     margin: 15px 0px;
     border-radius: 8px;
     border: none;
-    width: 350px;
-    height: 45px;
+    width: 330px;
+    height: 50px;
     background-color: black;
 }
 .cont-but::placeholder{
@@ -41,4 +41,50 @@ h2{
 }
 hr{
     text-align: center;
+}
+hr{
+    width: 165px;
+    /* margin: 0px 2px; */
+    border: 1px solid #AFAFAF;
+    font-weight: bold;
+}
+.hr1{
+    font-weight: bold;
+    color: #AFAFAF;
+    display: flex;
+}
+.cont-but-1{
+    background-color: #EEEEEE;
+    font-weight: bold;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 5px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+}
+.para{
+    margin-top: 12px;
+}
+.extra{
+    padding-left: 40px;
+    margin: 5px 0px;
+    height: 50px;
+    background-color: #EEEEEE;
+    width: 50px;
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+}
+.combine{
+    display: flex;
+    width: 330px;
+}
+.extra img{
+    top: 10px;
+    left: 10px;
+    position: relative;
+    width: 28px;
+    height: 28px;
 }
