@@ -13,7 +13,7 @@ function Navbar() {
             <span class="fa fa-bars navic"></span>
           </button>
           <div className="hea">
-            <h2>Uber</h2>
+            <h2 className='uber'>Uber</h2>
             <h2 className='eats'>Eats</h2>
           </div>
           <div className="sidebut">

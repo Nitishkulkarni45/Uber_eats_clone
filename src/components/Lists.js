@@ -79,7 +79,7 @@ function Lists() {
                         <a href="/">United States</a>
                     </div>
                 </div>
-                <hr />
+                
             </div>
         </div>
     )

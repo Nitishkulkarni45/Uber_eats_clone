@@ -4,6 +4,7 @@ import "./Foothead.css";
 function Foothead (){
   return (
     <div>
+        <hr />
         <div className="cont">
             <div className="colu">
                 <div className="subcol">

@@ -39,6 +39,10 @@
 #cololo1{
     margin-left: 280px;
 }
-.subcol{
+.subcol h2{
+    font-size:30px ;
     margin-left: 55px;
+}
+hr{
+    width: 100%;
 }

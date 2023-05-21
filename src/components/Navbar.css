@@ -150,14 +150,20 @@ color: white;
     margin: 5px 0px 0px 20px;
 }
 .hea{
-    font-size: 20px;
     display: flex;
     text-align: start;
     margin-right: 67%;
     margin-top: 2px;
 }
 .eats{
+    font-size: 30px;
     font-weight: 700;
     margin-left: 5px;
+}
+
+.uber{
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
 }
 

@@ -5,10 +5,15 @@
     justify-content: space-evenly;
 }
 .card{
+    font-family: 'Cabin', sans-serif;
     border: none;
 text-align: start;
 }
 .card a{
     color: black;
     font-weight: 500;
+}
+.card h2{
+    margin-top: 10px;
+    font-size: 27px;
 }
