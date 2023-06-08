@@ -166,4 +166,14 @@ color: white;
     font-size: 30px;
     font-weight: 700;
 }
+.mainmain{
+    display: flex;
+    flex-direction: row;
+}
+
+.imageleft img{
+height: 50px;
+width: 50px;
+border-radius: 8px;
+}
 
