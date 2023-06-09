@@ -169,11 +169,30 @@ color: white;
 .mainmain{
     display: flex;
     flex-direction: row;
+    margin-bottom: 15px;
 }
 
 .imageleft img{
 height: 50px;
 width: 50px;
 border-radius: 8px;
+}
+.applee{
+    border: none;
+    border-radius: 20px;
+    height: 38px;
+    width: 100px;
+    margin-right: 8px;
+    font-weight: 600;
+}
+.yepapp{
+    margin-right: 10px;
+}
+.mainright{
+    margin-left: 13px;
+    font-weight: 600;
+}
+.ended{
+    margin-top: 330px;
 }
 
